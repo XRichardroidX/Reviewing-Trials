@@ -1,0 +1,30 @@
+html{
+    max-width: 100%;
+}
+body{
+    max-width: 100%;
+    background-color: gray;
+    color: blue;
+}
+
+div{
+    max-width: 100%;
+}
+img{
+    max-width: 100%;
+}
+div#cont.cont{
+    display: flexbox;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+.tile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div.project-grid{
+    flex-direction: column;
+}
